@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+main {
+    text-align: center;
+    background-image: url(images/background.png);
+}
+.logo {
+    margin: 0 auto;
+}
+.navigation a {
+    float: center;
+    text-align: center;
+    padding: 30px 30px;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navigation a:hover {
+    color: black;
+}
+.navigation a.active {
+    color: green;
+}
+footer {
+    background-image: url(images/background.png);
+    color: darkgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainpage p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgreen;
+    font-size: 20px;
+}
+.mainpage {
+    height: 15em;
+    text-align: center;
+}
+.mainpage section {
+    width: 40em;
+    margin: 0 auto;
+}
+.mainpage section a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgreen;
+    font-size: 20px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Doug Brazell Floor Sanding and Refinishing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo" height="150px" width="450px">
+    </div>
+    <div class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contact Us</a>
+    </div>
+    <main>
+        <div class="logo">
+            <img class="banner w3-animate-fading" src="images/banner_no_logo.png" alt="Business Banner with Logo" height="400px" width="600px">
+            <img class="banner w3-animate-fading" src="images/banner_img_2.png" alt="Business Banner with Logo" height="400px" width="600px">
+            <img class="banner w3-animate-fading" src="images/banner_img_3.png" alt="Business Banner with Logo" height="400px" width="600px">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel(){
+                var i;
+                var x = document.getElementsByClassName("banner");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length){myIndex = 1}
+                x[myIndex-1].style.display = "inline";
+                setTimeout(carousel, 3000);
+            }
+        </script>
+        
+    </main>
+    <div class="mainpage">
+        <section>
+          <p>Taking your floors from worn to wonderful. Proudly serving the Midlands and surrounding area of South Carolina. Contact us today at 803-608-2305 for a free estimate!</p>  
+        </section>
+        <section>
+            <a href="#">Click here to learn more!</a>
+        </section>
+    </div>
+</body>
+<footer>
+    <p>Copyright
+    <script type="text/javascript">
+        document.write(new Date().getFullYear());
+    </script> &copy;
+    </p>
+</footer>
+</html>

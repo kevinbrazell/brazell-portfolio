@@ -7,6 +7,29 @@ main {
 }
 .logo {
     margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+.aboutuslogo {
+    display: flex;               /* Use flexbox for better control */
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;         /* Vertically align items */
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+.aboutus {
+    float: right;
+    width: 70%;
+    text-align: justify;
+    margin: 15px;
+}
+.aboutusimage {
+    float: left;
+    margin: 15px;
+    width: 500px;
+    height: auto;
 }
 .navigation a {
     float: center;
